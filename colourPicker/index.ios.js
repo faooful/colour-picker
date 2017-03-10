@@ -14,7 +14,7 @@ import {
 
 import ColorDraw from './components/ColorDraw';
 
-export default class colourPicker extends Component {
+export default class ColourPicker extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -27,10 +27,8 @@ export default class colourPicker extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
 });
 
-AppRegistry.registerComponent('colourPicker', () => colourPicker);
+AppRegistry.registerComponent('colourPicker', () => ColourPicker);

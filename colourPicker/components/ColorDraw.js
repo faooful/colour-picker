@@ -19,7 +19,11 @@ export default class ColorDraw extends PureComponent {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: 'black',
-    height: 50,
-    width: 50,
+    flexDirection: 'row',
+    height: 150,
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
   },
 });
