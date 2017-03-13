@@ -13,11 +13,13 @@ import {
 } from 'react-native';
 
 import ColorDraw from './components/ColorDraw';
+import ColorSelection from './components/ColorSelection';
 
 export default class ColourPicker extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <ColorSelection/>
         <ColorDraw/>
       </View>
     );
@@ -27,7 +29,7 @@ export default class ColourPicker extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#0E0E0E',
   },
 });
 
